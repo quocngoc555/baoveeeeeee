@@ -1,0 +1,26 @@
+.card-img-top{
+    width: 100%;
+    height: 300px;
+}
+.card-title{
+    color: blue;
+}
+.card-text{
+    color: darkgoldenrod;
+}
+@media only screen and (min-width: 900px) {
+    .hidden{
+     display: block;
+    }
+ }
+@media only screen and (max-width: 600px) {
+   .hidden{
+    display: none;
+   }
+}
+.anh{
+    height: 300px;
+}
+.container mt-3{
+    height: 100px;
+}
